@@ -13,9 +13,9 @@ var app = express();
 app = appConfig(app);
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/public/index.html'));
+    res.sendFile(path.join(__dirname + '/www/index.html'));
 });
-app.use(express.static('public'));
+app.use(express.static('www'));
 
 app.use('/api/users', routes.users);
 
