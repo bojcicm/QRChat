@@ -1,10 +1,15 @@
 var express = require('express');
 var router = express.Router();
+var dbService = require('../../services/firebase/dbService');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
+  var testData = dbService.createUser();
   var data = guid();
-  res.send(data);
+  res.send({
+    guid : data,
+    test: testData
+  });
 });
 
 function guid() {

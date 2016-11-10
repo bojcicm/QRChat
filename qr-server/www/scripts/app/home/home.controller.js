@@ -12,13 +12,13 @@
 
         getGuid();
         function getGuid(){
-            if(isGuidActiveInLocalStorage()){
-                vm.guid = 'localStorage.guid';
+            if(vm.guid != ''){
                 return;
             }
+            
             $http.get('http://localhost:3000/api/users')
             .success(function(data){
-                vm.guid = data;
+                vm.guid = data.guid;
             });
         }
 
