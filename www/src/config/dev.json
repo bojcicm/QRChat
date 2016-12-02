@@ -1,0 +1,7 @@
+{
+    "apiKey": "AIzaSyAxwfi_K3RSaFFxM9ZH8G_PdFODB6aJR5A",
+    "authDomain": "qr-chat.firebaseapp.com",
+    "databaseURL": "https://qr-chat.firebaseio.com",
+    "storageBucket": "qr-chat.appspot.com",
+    "messagingSenderId": "63654247789"
+}

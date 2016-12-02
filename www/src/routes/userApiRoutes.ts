@@ -9,9 +9,15 @@ export class UserApiRoute{
   
     router.get("/api/getUser/:userId?", (req: Request, res: Response, next: NextFunction) => {
       new UserApiRoute().getUser(req,res,next);
+    })
+    .get("/api/doesUserExists/:userId", (req: Request, res: Response, next: NextFunction) => {
+      new UserApiRoute().doesUserExists(req,res,next);
     });
 
     router.post("/api/createUser", (req: Request, res: Response, next: NextFunction) => {
+      new UserApiRoute().getUser(req,res,next);
+    })
+    .post("/api/removeUser", (req: Request, res: Response, next: NextFunction) => {
       new UserApiRoute().getUser(req,res,next);
     })
     .post("/api/removeUser", (req: Request, res: Response, next: NextFunction) => {
@@ -28,21 +34,30 @@ export class UserApiRoute{
 
 
   public getUser(req: Request, res: Response, next: NextFunction) {
-    let maybeUserId: string = req.params.userId;
-    
-    if(!this.checkIfUserIdIsGiven(res, maybeUserId)){
-      next("errors");
-    }
-    else{
-      var result = this.userService.isUserPresent(maybeUserId);
-      res.send({
-        guid: maybeUserId
-      });
+    let maybeUserId: string = req.params.userId;    
+    if(!this.checkIfUserIdIsGiven(maybeUserId)){
+      next("userId is not provided");
+      return;
     }
     
+    var result = this.userService.isUserPresent(maybeUserId);
+    res.send({
+      guid: maybeUserId
+    });
+    }
+
+  public doesUserExists(req: Request, res: Response, next: NextFunction){
+    let maybeUserId: string = req.params.userId;    
+    if(!this.checkIfUserIdIsGiven(maybeUserId)){
+      next("userId is not provided");
+      return;
+    }
+
+    var result = this.userService.isUserPresent(maybeUserId);
+    res.send({result});
   }
 
-  private checkIfUserIdIsGiven(res: Response, userId: string): boolean{
+  private checkIfUserIdIsGiven(userId: string): boolean{
     if(userId != undefined && userId.length != 0){
       return true;      
     }

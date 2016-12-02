@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "node_modules/": true,
+        "dist/": true,
+        "**/.tscache": true,
+        "**/.baseDir.ts": true,
+
+
+        "**/*.js.map":true,
+        "server/**/*.js": true,
+        "server/**/*.js.map": true,
+        "client/**/*.js": true,
+        "client/**/**/*.js.map": true
+    },
+    "editor.tabSize": "4"
+}

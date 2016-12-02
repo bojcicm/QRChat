@@ -1,3 +1,5 @@
+import {FirebaseRepository} from "..\\repository\\firebaseRepository"
+
 export interface IUserService{
     getUserData(userId: string): string;
     createUser(): string;
@@ -14,6 +16,7 @@ export class UserService implements IUserService{
     }
 
     isUserPresent(userId : string):boolean {
+        let db = FirebaseRepository.getInstance().firebaseDb;
         return true;
     }
 

@@ -6,7 +6,8 @@ import * as path from "path";
 import errorHandler = require("errorhandler");
 import methodOverride = require("method-override");
 
-import { UserApiRoute } from "./routes/userApiRoutes";
+import {UserApiRoute} from "./routes/userApiRoutes";
+import {FirebaseRepository} from "./repository/FirebaseRepository";
 
 export class Server {
     public app: express.Application;

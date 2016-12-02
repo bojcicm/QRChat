@@ -1,0 +1,13 @@
+{
+  "script": "./bin/www.js",
+  "ext": "ts",
+  "tasks": [
+    "build"
+  ],
+  "watch": [
+    "./src"
+  ],
+  "env": {
+    "DEBUG": 1
+  }
+}

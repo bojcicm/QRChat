@@ -1,0 +1,11 @@
+.idea
+coverage
+node_modules
+unit_coverage
+bower_components
+typings
+.tscache
+server/**/*.js
+server/**/*.js.map
+client/**/*.js
+client/**/*.js.map
