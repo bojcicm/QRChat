@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+
+<p>{{(user | async)?.userId}}</p>
+{{user.userId}}
+<div *ngIf="(user | async)?.userId">
+  <qr-code [data]="(user | async)?.userId" [size]="150"></qr-code>
+</div>
