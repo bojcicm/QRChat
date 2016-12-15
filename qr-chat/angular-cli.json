@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "assets/fonts/roboto"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -18,9 +19,12 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "./assets/sass/materialize.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/bin/materialize.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
@@ -28,8 +32,10 @@
       }
     }
   ],
-  "addons": [],
-  "packages": [],
+  "addons": [
+  ],
+  "packages": [
+  ],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
@@ -41,7 +47,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "sass",
     "prefixInterfaces": false,
     "inline": {
       "style": false,
