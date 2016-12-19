@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "63654247789",
+    "firebase_url": "https://qr-chat.firebaseio.com",
+    "project_id": "qr-chat",
+    "storage_bucket": "qr-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63654247789:android:85ab1cec08a4e05a",
+        "android_client_info": {
+          "package_name": "com.example.iursic.qrchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63654247789-uhsnsk82ocndseopqodov6enmqp1jjo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9nI7ymYdyt0fuSSvbLotWIEMELL047e0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

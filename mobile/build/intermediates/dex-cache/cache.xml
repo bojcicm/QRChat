@@ -3,33 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ca1bcd105b3143810f7a599c30301f398f236c16">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_598726d0ef573ab70cffd6d4e21d44ed0000f19c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_a2aa37df1e79d8b228ea9eba61318f0dd361c251/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.9/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-zxing-1.9_fbdd6f462503be78e3d78a8d5f8bf7405605f121/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -39,57 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_abc30de004b88c92ecb069a015df7d9ac16f1abc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.6.0_4f6765a1ac13d84a52f4aefc3ae8c0984b4c3cbe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_3c50ac77b7804945d6121d9dfbdb88ef4b5590a5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_6259730e704494ffdb9df1156b45fb04e2472236/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_0d6d579774ed6348eab2a379d9deb5a177f2691b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_01549234f4f015bbcfa2cee366c7fb0c9fdd7aec/classes.dex" />
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_d99cb3fe6725c7a9a4a47e9f18d9b0f19d7c915a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -98,43 +26,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.0_b07e9aaf9fc883d8b928410106a2fc6319432906/classes.dex" />
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.0_b07e9aaf9fc883d8b928410106a2fc6319432906/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_9ec3d500a8750e12aa3eb606ba76d01bc3712139/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_ea490b0e2b81a262414813068ccc9c370448d1ed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_3707f5e71578afb7c2119aa8843e9e97edea9a13/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="10cb0971833b27c77ba79335d0746cf066d72c98">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_353a79dd381fc5dcd47cd0a38e71345d49ac9eab/classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_3861c5ce678f2b3e5c05f00e599f050be35da8ed/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,21 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_5186cf93f6e832c8a6d8de66aec62d3f8c122269/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_0da7e965fc0b812ab32bd640d2326f89549e132b/classes.dex" />
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_7f6a9dde92bbcdbdbeb104b255b11435314d7961/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,6 +75,114 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_0513dd0653dfd3216a85bd25455b992e69a9e8e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_d6da15508de0fc32daf4c52311b8fcb8b469612e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="abc0e99bb553a10d337007fcf24b27987902f92a">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_16c9f4a36d3c89355b48bd767294a51ea9f66d30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_9a8ac6d37d7f2a996741c9ff2c1b50f96ae49bee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-core-1.9_75ee6594e933769363b87f4b931cd8604da2c811/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_8a578065c8dff09d1ee61339d7cd1afa4e65d950/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e73b9d072cd9413fd5f96b6ceeb7997eacc307f0">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_598726d0ef573ab70cffd6d4e21d44ed0000f19c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-zxing-1.9_fbdd6f462503be78e3d78a8d5f8bf7405605f121/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_0d6d579774ed6348eab2a379d9deb5a177f2691b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_ea490b0e2b81a262414813068ccc9c370448d1ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_3707f5e71578afb7c2119aa8843e9e97edea9a13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_0da7e965fc0b812ab32bd640d2326f89549e132b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -201,93 +201,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_d6da15508de0fc32daf4c52311b8fcb8b469612e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="815d33a75cbc8fff23455a9a7591181355004c18">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_16c9f4a36d3c89355b48bd767294a51ea9f66d30/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_c3fb450ad9c7e62ad4aab5debcee7ddca6f51f6d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7f793a89d24d6bac97a867c3bc57accf13ef2db9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-core-1.9_04c84c4ca2ec5263572adc80c21e24d1f68c7da7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ebb2855ac67c413ae2c646e07ab709879cc15e50/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_3f4c89c5446db2556acd3842275856dfdec8cbc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_4b85f74936bd0695964d9f04ad5649ea3f425b77/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.9/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-zxing-1.9_5c4f1118dc172d225d4b145b08a6f8d7a10cf176/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_29d118708c5b440d303d3ce5c6e65c3a22b551ad/classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_cc7cdd901e4fdcb895e726a89079d6b785182fb6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -296,7 +215,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_8a98894dc5ffaecfd4200e7c53b468f4477228b5/classes.dex" />
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_8a98894dc5ffaecfd4200e7c53b468f4477228b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -306,15 +225,6 @@
         revision="25.0.0"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
         <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_a5c02df8e4ac40c0c2ccbee57d09c2a9d338cf05/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_b62a65fc888a700c1bf9622ad8ea18d145bef6a0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -336,12 +246,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
+        jar="/Users/iursic/QRChat/mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
-        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-core-1.9_75ee6594e933769363b87f4b931cd8604da2c811/classes.dex" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_d1e83554d478ed2952a665feccedf07b186d9324/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -351,15 +261,6 @@
         revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
         <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_404d80e3de1d83f483b6c51b84b2643e7b4590c3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0f559db9b08f48f255c0b46ab004ea7e954ee08e">
-        <dex dex="/Users/iursic/AndroidStudioProjects/QRChat/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_591126df9a004e00466e8e4949690191261c4cbc/classes.dex" />
     </item>
     <item
         is-multidex="true"
