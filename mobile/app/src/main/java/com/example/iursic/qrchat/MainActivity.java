@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         login_button.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                Intent intent = new Intent(MainActivity.this, ScannerActivity.class);
                 SharedPreferences settings = getSharedPreferences("facebook", 0);
                 SharedPreferences.Editor editor = settings.edit();
                 editor.putString("user_id",loginResult.getAccessToken().getUserId());
