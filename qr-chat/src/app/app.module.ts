@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
+import { FacebookService } from 'ng2-facebook-sdk';
 
 // Must export the config
 export const firebaseConfig = {
@@ -22,9 +23,11 @@ export const firebaseConfig = {
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
   ],
-  providers: [],
+  providers: [
+    FacebookService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFire, FirebaseObjectObservable } from 'angularfire2';
+import { FacebookService, FacebookInitParams } from 'ng2-facebook-sdk'
  
 // http://zyramedia.github.io/ng2-facebook-sdk/
 
@@ -17,14 +18,24 @@ export class User {
 export class AppComponent {
   title = 'app works!';
   userQrCodeUrl: string = '';
+  userId:string;
   user: FirebaseObjectObservable<User>;
+  fbUser: any;
   isFacebookLoading: boolean = false;
 
-  constructor(af: AngularFire) {
+  constructor(af: AngularFire, private fb: FacebookService) {
     let userId = af.database.list('/').$ref.ref.child('/users').push().key;
+    this.userId = userId;
     this.user = af.database.object('/users/' + userId);
+    this.user.set({"userId" : this.userId});
     this.userQrCodeUrl = 'https://api.qrserver.com/v1/create-qr-code/?data=' + userId + '&size=150x150&format=svg';
-    this.user.set({userId: userId});
+
+    let fbParams: FacebookInitParams = {
+      appId: '1247045158649026',
+      xfbml: true,
+      version: 'v2.6'
+    };
+    this.fb.init(fbParams);
 
 
     let a = this.user.subscribe(
@@ -33,12 +44,25 @@ export class AppComponent {
       () => console.log("its done"));  
   }
 
+  setUser(data: any){
+    this.isFacebookLoading = false;
+    this.fbUser = {
+      name: data.name
+    }
+  }
+
   searchFacebookData(userData: User): void{
-    console.log(userData.tokenData);
     this.isFacebookLoading = true;
 
-    //load Facebook data
-    //isFacebookLoading = false;
+    let params = {
+      access_token : userData.tokenData.authToken
+    }
 
+    this.fb.api('/me', "get", params).then(
+      (result) => {this.setUser(result)},
+      (error) => {console.log(error)}
+    )
   }
+
+  
 }
