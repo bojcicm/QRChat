@@ -14,7 +14,7 @@ Local build:
 1. `npm install`
 2. `ng serve`
 
-Build for prod:
+Build for prod - [Details](https://coryrylan.com/blog/deploy-angular-2-cli-apps-to-firebase):
 
 1. `ng build --prod`
 2. If you **DO NOT** have firebase-tools install them
