@@ -10,19 +10,19 @@ User opens web app where qr code is present - `qr-chat/`
 Token provider is mobile app, mobile logs into facebook and stores access token - `mobile/`
 
 Local build:
-* `npm install`
-* `ng serve`
 
-Build for prod:
-* `ng build --prod`
+1. `npm install`
+2. `ng serve`
 
-* If you *DO NOT* have firebase-tools install them
-** `npm i -g firebase-tools`
-** Go to project folder
-** Login to fb tools `firebase login`
-** `firebase init`
-** select project
-** do not user `public/` dir, user `dist` directory
-** rewrite all urls
+Build for prod - [Details](https://coryrylan.com/blog/deploy-angular-2-cli-apps-to-firebase):
 
-* firebase deploy
+1. `ng build --prod`
+2. If you **DO NOT** have firebase-tools install them
+  1. `npm i -g firebase-tools`
+  2. Go to project folder
+  3. Login to fb tools `firebase login`
+  4. `firebase init`
+  5. select project
+  6. *do not* use `public/` dir, use `dist/` directory
+  7. rewrite all urls
+3. run `firebase deploy`
