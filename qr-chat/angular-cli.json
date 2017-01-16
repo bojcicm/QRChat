@@ -23,7 +23,9 @@
         "./assets/sass/materialize.scss"
       ],
       "scripts": [
-        "assets/js/bin/materialize.js"
+        "assets/js/bin/materialize.js",
+        "assets/js/SendBird.min.js"
+
       ],
       "environments": {
         "source": "environments/environment.ts",

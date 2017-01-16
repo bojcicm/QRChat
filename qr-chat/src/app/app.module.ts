@@ -6,6 +6,8 @@ import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 import { FacebookService } from 'ng2-facebook-sdk';
 
+import {MessageComponent} from './message/message.component';
+
 // Must export the config
 export const firebaseConfig = {
     apiKey: 'AIzaSyAxwfi_K3RSaFFxM9ZH8G_PdFODB6aJR5A',
@@ -17,13 +19,14 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [
     FacebookService
