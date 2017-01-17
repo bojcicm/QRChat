@@ -6,7 +6,8 @@ import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 import { FacebookService } from 'ng2-facebook-sdk';
 
-import {MessageComponent} from './message/message.component';
+import { MessageComponent } from './message/message.component';
+import { ChatComponent } from './chat/chat.component';
 
 // Must export the config
 export const firebaseConfig = {
@@ -20,7 +21,8 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    MessageComponent
+    MessageComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,5 @@ import { Component, Input } from '@angular/core';
   templateUrl: './message.component.html'
 })
 export class MessageComponent {
-    @Input()
-    message:any;
+    @Input() message:any;
 }
