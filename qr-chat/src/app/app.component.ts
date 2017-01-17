@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AngularFire, FirebaseObjectObservable } from 'angularfire2';
 import { FacebookService, FacebookInitParams } from 'ng2-facebook-sdk';
 import { Http, Response } from '@angular/http';
@@ -16,34 +16,39 @@ export class User {
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit{
   userQrCodeUrl: string = '';
   userId:string;
+  
   user: FirebaseObjectObservable<User>;
   fbUser: any;
-  isFacebookLoading: boolean = false;
+
   isChatLoading: boolean = true;
   
 
-  constructor(af: AngularFire, private fb: FacebookService, private http: Http) {
-    let userId = af.database.list('/').$ref.ref.child('/users').push().key;
-    this.userId = userId;
-    this.user = af.database.object('/users/' + userId);
-    this.user.set({"userId" : this.userId});
-    this.userQrCodeUrl = 'https://api.qrserver.com/v1/create-qr-code/?data=' + userId + '&size=150x150&format=svg';
-    
+  constructor(private af: AngularFire, private fb: FacebookService, private http: Http) {
     let fbParams: FacebookInitParams = {
       appId: '1247045158649026',
       xfbml: true,
       version: 'v2.6'
     };
-
     this.fb.init(fbParams);
+  }
 
-    let a = this.user.subscribe(
+  ngOnInit(){
+    this.userId = this.af.database
+      .list('/').$ref.ref.child('/users').push().key;
+    this.user = this.af.database
+      .object('/users/' + this.userId);
+    
+    this.user.set({"userId" : this.userId});
+    this.userQrCodeUrl = 'https://api.qrserver.com/v1/create-qr-code/?data=' + this.userId + '&size=150x150&format=svg';    
+
+    let userChangingValueSubscription = this.user.subscribe(
       userEdited => userEdited.tokenData ? this.searchFacebookData(userEdited) : {},
       error => console.log("error has occured", error),
       () => console.log("its done"));  
+
   }
 
   setUser(data: any){
@@ -55,7 +60,6 @@ export class AppComponent {
   }
 
   searchFacebookData(userData: User): void{
-    this.isFacebookLoading = true;
     let params = {
       access_token : userData.tokenData.authToken,
       fields : 'id,name,picture'
@@ -63,7 +67,6 @@ export class AppComponent {
     this.fb.api('/me', "get", params).then(
       (result) => {
         this.setUser(result);
-        this.isFacebookLoading = false;
         this.isChatLoading = false;
       },
       (error) => {

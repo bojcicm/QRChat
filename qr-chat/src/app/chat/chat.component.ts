@@ -73,7 +73,22 @@ export class ChatComponent implements OnInit {
   }
 
   sendMessage(message:any):void{
-    console.log(message);
+    let sendingMessage = message;
+    this.sb.OpenChannel.getChannel('main_channel', ((channel:OpenChannel,error)=> {
+        channel.enter( (response, error) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+        });
+        channel.sendUserMessage(sendingMessage, (message, error)=>{
+          if (error) {
+            console.error(error);
+            return;
+          }
+          this.addMessage(message);
+        })
+    }));
   }
 }
 
