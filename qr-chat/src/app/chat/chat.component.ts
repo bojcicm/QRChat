@@ -29,7 +29,7 @@ export class ChatComponent implements OnInit {
   setChat():void{
     this.sb.connect(this.fbUserData.userId, (r)=>{
       this.sb.updateCurrentUserInfo(this.fbUserData.name, this.fbUserData.profileImage)
-      this.sb.OpenChannel.getChannel('main_channel', (channel,error)=> {
+      this.sb.OpenChannel.getChannel('app_chat', (channel,error)=> {
         this.getPreviousMessages(channel);
         channel.enter( (response, error) => {
           if (error) {
@@ -74,7 +74,7 @@ export class ChatComponent implements OnInit {
 
   sendMessage(message:any):void{
     let sendingMessage = message;
-    this.sb.OpenChannel.getChannel('main_channel', ((channel:OpenChannel,error)=> {
+    this.sb.OpenChannel.getChannel('app_chat', ((channel:OpenChannel,error)=> {
         channel.enter( (response, error) => {
           if (error) {
             console.error(error);
@@ -91,8 +91,3 @@ export class ChatComponent implements OnInit {
     }));
   }
 }
-
-
-
-// WEBPACK FOOTER //
-// C:/Users/mbojcic/Documents/Visual Studio 2015/Projects/QRChat/qr-chat/src/app/chat/chat.component.ts
