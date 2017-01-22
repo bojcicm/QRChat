@@ -45,8 +45,6 @@ public class ScannerActivity extends Activity implements ZXingScannerView.Result
         editor.putString("text",rawResult.getText());
         editor.putString("barcodeformat",rawResult.getBarcodeFormat().toString());
         editor.commit();
-        Log.v("Text:", rawResult.getText()); // Prints scan results
-        Log.v("Format: ", rawResult.getBarcodeFormat().toString()); // Prints the scan format (qrcode, pdf417 etc.)
 
         // If you would like to resume scanning, call this method below:
         Intent intent = new Intent(ScannerActivity.this,HomeActivity.class);

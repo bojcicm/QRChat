@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b8fa2df72f1ae584c46ec840ae64ab45ede766e3">
+        sha1="10a9c7a11d20e78ccbf85d3d015f718f635fc2be">
         <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_16c9f4a36d3c89355b48bd767294a51ea9f66d30/classes.dex" />
     </item>
     <item
@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="530320c3874f5168d05b481c7424481500d29f6a">
+        sha1="cf9851c7dcbe58f9a9eb70b43a8bea0a96c6090a">
         <dex dex="/Users/iursic/QRChat/mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_598726d0ef573ab70cffd6d4e21d44ed0000f19c/classes.dex" />
     </item>
     <item

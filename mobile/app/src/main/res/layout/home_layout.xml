@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <TextView
-        android:text="Auth token:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/auth_token"
-        android:textSize="18sp"
-        android:textColor="@android:color/background_dark"
-        android:layout_marginTop="20dp"
-        android:padding="10dp" />
 
     <TextView
         android:layout_marginTop="20dp"
@@ -19,28 +10,35 @@
         android:layout_height="wrap_content"
         android:id="@+id/user_id"
         android:textSize="18sp"
-        android:text="USER ID:"
+        android:text="Message:"
         android:textColor="@android:color/background_dark"
         android:padding="10dp" />
 
     <TextView
-        android:text="Text"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text"
+        android:id="@+id/data"
         android:textSize="18sp"
+        android:text="data"
         android:textColor="@android:color/background_dark"
-        android:layout_marginTop="20dp"
         android:padding="10dp" />
 
-    <TextView
-        android:text="Barcode format;"
-        android:layout_width="match_parent"
+    <Button
+        android:text="Scan again"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/barcode_format"
+        android:id="@+id/tohome_button"
+        android:onClick="LoginScreen (HomeActivity)"
+        android:layout_marginTop="50dp"
+        tools:layout_width="150dp"
+        android:foreground="@color/com_facebook_blue"
+        android:textColor="@color/com_facebook_button_login_silver_background_color"
+        android:background="@drawable/com_facebook_button_background"
         android:textSize="18sp"
-        android:textColor="@android:color/background_dark"
-        android:layout_marginTop="20dp"
-        android:padding="10dp" />
+        android:visibility="visible"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp" />
 
 </LinearLayout>

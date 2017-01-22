@@ -1,8 +1,11 @@
 package com.example.iursic.qrchat;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.firebase.database.DatabaseReference;
@@ -20,20 +23,19 @@ import java.util.Map;
 public class HomeActivity extends Activity {
 
     private TextView user_id;
-    private TextView auth_token;
-    private TextView text;
+    private TextView data;
     private DatabaseReference mDatabase;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_layout);
         user_id = (TextView) findViewById(R.id.user_id);
-        auth_token = (TextView) findViewById(R.id.auth_token);
-        text = (TextView) findViewById(R.id.text);
+        data = (TextView) findViewById(R.id.data);
         SharedPreferences settings = getSharedPreferences("facebook", 0);
         String id = settings.getString("user_id",null);
         String token = settings.getString("token",null);
         String textString = settings.getString("text",null);
+        data.setText("USER ID: " + id + System.getProperty("line.separator") + System.getProperty("line.separator") + "AUTH TOKEN: " + token + System.getProperty("line.separator") + System.getProperty("line.separator") + "CODE: "+ textString );
         mDatabase = FirebaseDatabase.getInstance().getReference();
         WriteNewUser(id,token,textString);
     }
@@ -69,6 +71,12 @@ public class HomeActivity extends Activity {
         Map<String, Object> childUpdates = new HashMap<>();
         childUpdates.put("/users/"+ guid+"/tokenData", userValues);
         mDatabase.updateChildren(childUpdates);
+        user_id.setText("Message: You are authorized and you can chat now");
+    }
+
+    public void LoginScreen (View view){
+        Intent intent = new Intent(HomeActivity.this, ScannerActivity.class );
+        startActivity(intent);
     }
 
 }
