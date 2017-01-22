@@ -1,23 +1,16 @@
-<div class="row">
+<div class="row" *ngIf="isChatLoading">
     
-  <div class="col s12 m6">
-    <div class="card small">
-      
-      <div class="card-image">
-        <div style="width:150px; margin: 20px auto;" *ngIf="userId">
-          <img src="{{userQrCodeUrl}}" />
+  <div class="col s12 m12">
+    <div class="">      
+      <div class="valign-wrapper">
+        <div style="max-width:350px; margin: 20px auto;" *ngIf="userId">
+          <img class="responsive-img" src="{{userQrCodeUrl}}" />
         </div>
       </div>
-
-      <div class="card-content">
-         <span class="card-title activator grey-text text-darken-4">User ID:</span>
-         <p>{{userId}}</p>
-      </div>
-
     </div>    
   </div>
   
-  <div class="col s12 m6 valign-wrapper" style="min-height: 300px">
+  <div class="col s12 m12 valign-wrapper" style="min-height: 300px">
     <div *ngIf="!(user | async)?.tokenData" style="width:100%">
       <div class="center-align">
         
@@ -35,34 +28,11 @@
         </div>
 
       </div>
-      
-
     </div>
-    
-    <div *ngIf="(user | async)?.tokenData" style="width:100%">
-      <div class="center-align">
-
-        <div *ngIf="isFacebookLoading">
-          <h5>Waiting to load Facebook data</h5>
-          <div class="preloader-wrapper small active">
-            <div class="spinner-layer spinner-blue-only">
-              <div class="circle-clipper left">
-                <div class="circle"></div>
-              </div><div class="gap-patch">
-                <div class="circle"></div>
-              </div><div class="circle-clipper right">
-                <div class="circle"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div *ngIf="!isFacebookLoading">
-          <h5>Hello {{fbUser.name}}</h5>
-          <img src=""/>
-        </div>
-      </div>
-    </div>
-     
   </div>
+  
 </div>
+
+<app-chat *ngIf="!isChatLoading" [fbUserData]="fbUser"></app-chat>
+
+
